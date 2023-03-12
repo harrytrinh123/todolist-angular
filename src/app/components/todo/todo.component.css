@@ -1,0 +1,70 @@
+.todo {
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(171, 171, 231);
+  width: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+.todo .content {
+  cursor: pointer;
+}
+
+.todo-done .content{
+  text-decoration: line-through;
+}
+
+.id {
+  width: 10%;
+}
+
+.content {
+  width: 80%;
+  font-size: 25px;
+  color: rgb(43, 39, 39);
+}
+
+.delete {
+  width: 10%;
+  border-radius: 10px;
+  padding: auto;
+  border: none;
+  background-color: rgb(219, 170, 170);
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: rgb(187, 54, 54);
+}
+
+.todo-input{
+  width: 1000px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 25px 10px;
+  border: solid 2px rgb(7, 94, 134);
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.todo-add {
+  padding: 35px 20px;
+  background-color: rgb(145, 145, 234);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 10px;
+  font-size: 25px;
+
+}
+
+.create-todo {
+  width: 100% !important;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
